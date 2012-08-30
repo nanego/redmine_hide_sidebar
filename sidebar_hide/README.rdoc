@@ -1,0 +1,3 @@
+= sidebar_hide
+
+Description goes here

@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="/plugin_assets/sidebar_hide/stylesheets/sidebar_hide.css" />
+<script type="text/javascript" src="/plugin_assets/sidebar_hide/javascripts/sidebar_hide.js"></script>
+
+<% if sidebar_content? %>
+    <div id="sidebarHandler">
+        <div class ="show" id = "hideSidebarButton" onclick="hideSideBar()" width="7" height="23" />
+    </div>
+    <% if cookies["sidebarCookie"] != "show" %>
+        <script>
+            $(function() {
+                hideSideBar();
+            });
+        </script>
+    <% end %>
+<% end %>
