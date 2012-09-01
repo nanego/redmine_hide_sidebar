@@ -12,3 +12,8 @@ Screenshots
 ====================
 
 [![Screenshot1](https://github.com/ries-tech/redmine-sidebar-hide/blob/master/sidebar-hide-screenshot.png)](https://github.com/ries-tech/redmine-sidebar-hide/blob/master/sidebar-hide-screenshot.png)
+
+Versions
+====================
+
+ * Redmine 2.1.x, 2.2.x 
