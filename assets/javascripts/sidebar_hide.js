@@ -29,7 +29,7 @@ function hideSideBar()
         setCookie("sidebarCookie","hide",100);
     } else {
         document.getElementById("sidebar").style.display = 'block';
-        document.getElementById('content').style.width="100%";
+        document.getElementById('content').style.width="75%";
         document.getElementById('hideSidebarButton').className = 'show';
         setCookie("sidebarCookie","show",100);
     }
