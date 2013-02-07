@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="/plugin_assets/sidebar_hide/stylesheets/sidebar_hide.css" />
-<script type="text/javascript" src="/plugin_assets/sidebar_hide/javascripts/sidebar_hide.js"></script>
+<%= stylesheet_link_tag 'sidebar_hide.css', :plugin => 'sidebar_hide' %>
+<%= javascript_include_tag 'sidebar_hide.js', :plugin => 'sidebar_hide' %>
 
 <% if sidebar_content? %>
     <div id="sidebarHandler">
