@@ -2,9 +2,9 @@
 
 #hideSidebarButton:hover{ cursor:pointer}
 
-.hide{ background:url("/plugin_assets/sidebar_hide/images/buttons.png") -7px 0;}
+.hide{ background:url("../images/buttons.png") -7px 0;}
 
-.show{ background:url("/plugin_assets/sidebar_hide/images/buttons.png") 0 0;}
+.show{ background:url("../images/buttons.png") 0 0;}
 
 #sidebarHandler{ position: absolute; top:50px; right:0px; float: right; margin-top:50px; border: 0px solid #ddd; z-index: 11;}
 #content{ position: relative; padding: 6px 20px 10px 10px;}
