@@ -1,4 +1,4 @@
-redmine-sidebar-hide
+Hide Sidebar
 ====================
 
 Adds simple hide button for sidebar of Redmine
@@ -11,7 +11,7 @@ Features
 Screenshots
 ====================
 
-[![Screenshot1](https://github.com/ries-tech/redmine-sidebar-hide/blob/master/sidebar-hide-screenshot.png)](https://github.com/ries-tech/redmine-sidebar-hide/blob/master/sidebar-hide-screenshot.png)
+TODO
 
 Versions
 ====================
