@@ -7,7 +7,9 @@
     </div>
     <% if cookies["sidebar_hide"] == "hide" %>
         <script>
-            hideSideBar();
+            $(function() {
+                hideSideBar();
+            });
         </script>
     <% end %>
 <% end %>
