@@ -3,9 +3,9 @@
 
 <% if sidebar_content? %>
     <div id="sidebarHandler">
-        <div class ="show" id = "hideSidebarButton" onclick="hideSideBar()" width="7" height="23"></div>
+        <div id="hideSidebarButton" onclick="hideSideBar()" />
     </div>
-    <% if cookies["sidebarCookie"] == "hide" %>
+    <% if cookies["sidebar_hide"] == "hide" %>
         <script>
             hideSideBar();
         </script>

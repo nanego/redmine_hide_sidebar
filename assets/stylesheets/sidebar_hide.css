@@ -1,19 +1,17 @@
 #hideSidebarButton {
   position: fixed;
-  width:7px;
-  height:23px;
+  width: 7px;
+  height: 23px;
+  background-image: url("../images/buttons.png");
+  background-position: 0 0;
 }
 
 #hideSidebarButton:hover {
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.hide {
-  background:url("../images/buttons.png") -7px 0;
-}
-
-.show {
-  background:url("../images/buttons.png") 0 0;
+#hideSidebarButton.sidebar_hidden {
+  background-position: -7px 0;
 }
 
 #sidebarHandler {
@@ -29,6 +27,15 @@
 #content {
   position: relative;
   padding: 6px 20px 10px 10px;
+  width: 75%;
+}
+
+#sidebar.sidebar_hidden {
+  display: none;
+}
+
+#content.sidebar_hidden {
+  width: auto;
 }
 
 /***** Media print specific styles *****/
