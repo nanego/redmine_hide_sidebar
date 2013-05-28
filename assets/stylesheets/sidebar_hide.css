@@ -30,3 +30,8 @@
   position: relative;
   padding: 6px 20px 10px 10px;
 }
+
+/***** Media print specific styles *****/
+@media print {
+  #sidebarHandler { display: none; }
+}
