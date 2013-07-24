@@ -20,7 +20,23 @@ Screenshots
 
 TODO
 
-Versions
+Compatibility
 ====================
 
  * Redmine 2.1.x, 2.2.x , 2.3.x
+
+Tested with...
+====================
+
+Themes:
+ * Default themes
+ * [RedmineCRM Themes](http://redminecrm.com/projects/themes):
+   * A1
+   * Highrise
+   * Coffee
+   * RedmineCRM
+
+Browsers:
+ * Google Chrome 28
+ * Firefox 22
+ * Internet Explorer 7-8-9-10
