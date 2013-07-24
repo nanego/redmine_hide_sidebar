@@ -15,18 +15,13 @@ Change to redmine/plugins folder and run:
   git clone https://github.com/ries-tech/sidebar_hide.git
 ```
 
-Screenshots
-====================
-
-TODO
-
-Compatibility
-====================
-
- * Redmine 2.1.x, 2.2.x , 2.3.x
-
 Tested with...
 ====================
+
+Redmine:
+ * 2.1.x
+ * 2.2.x
+ * 2.3.x
 
 Themes:
  * Default themes
