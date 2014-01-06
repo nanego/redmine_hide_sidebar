@@ -17,9 +17,9 @@
 #sidebarHandler {
   position: absolute;
   float: right;
-  top:50px;
-  right:0px;
-  margin-top:50px;
+  top: 50px;
+  right: 0px;
+  margin-top: 50px;
   margin-right: 7px;
   z-index: 11;
 }
@@ -27,14 +27,13 @@
 #content {
   position: relative;
   padding: 6px 10px 10px 10px;
-  width: 75%;
 }
 
 #sidebar.sidebar_hidden {
   display: none;
 }
 
-#content.sidebar_hidden {
+body #content.sidebar_hidden {
   width: auto;
   margin-right: 0;
 }
