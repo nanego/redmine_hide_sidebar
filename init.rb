@@ -1,3 +1,4 @@
+# encoding: utf-8
 require_dependency 'sidebar_hook_listener'
 
 Redmine::Plugin.register :sidebar_hide do
