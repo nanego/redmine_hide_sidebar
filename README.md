@@ -22,9 +22,13 @@ Redmine:
  * 2.1.x
  * 2.2.x
  * 2.3.x
+ * 2.5.x
 
 Themes:
  * Default themes
+ * Alternate
+ * Classic 
+ * [Gitmike](https://github.com/makotokw/redmine-theme-gitmike)
  * [RedmineCRM Themes](http://redminecrm.com/projects/themes):
    * A1
    * Highrise
@@ -32,6 +36,6 @@ Themes:
    * RedmineCRM
 
 Browsers:
- * Google Chrome 28
- * Firefox 22
+ * Google Chrome 28, 33
+ * Firefox 22, 28
  * Internet Explorer 7-8-9-10
