@@ -1,14 +1,14 @@
 Hide Sidebar
 ====================
 
-Adds simple hide button for sidebar of Redmine
+Adds a tiny hide button for sidebar of Redmine
 
 Features
 ====================
 
  * Using cookie to remember status of the sidebar (hidden or not)
 
-Instalation
+Installation
 ====================
 Change to redmine/plugins folder and run:
 ```bash
