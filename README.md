@@ -12,7 +12,7 @@ Installation
 ====================
 Change to redmine/plugins folder and run:
 ```bash
-  git clone https://github.com/ries-tech/sidebar_hide.git
+  git clone https://github.com/bdemirkir/sidebar_hide.git
 ```
 
 Tested with...
