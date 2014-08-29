@@ -35,6 +35,7 @@ Themes:
    * Highrise
    * Coffee
    * RedmineCRM
+   * Circle
 
 Browsers:
  * Google Chrome 28, 33
