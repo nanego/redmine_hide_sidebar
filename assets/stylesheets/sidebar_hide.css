@@ -29,7 +29,7 @@
 }
 
 #sidebar {
-  z-index:10000;
+  z-index:12;
 }
 
 #sidebar.sidebar_hidden {
