@@ -43,5 +43,16 @@ body #content.sidebar_hidden {
 
 /***** Media print specific styles *****/
 @media print {
-  #sidebarHandler { display: none; }
+  #sidebarHandler {
+    display: none;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  body #content {
+    width: auto;
+    margin-right: 0;
+  }
 }
