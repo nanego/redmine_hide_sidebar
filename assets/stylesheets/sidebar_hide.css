@@ -28,6 +28,10 @@
   position: relative;
 }
 
+#sidebar {
+  z-index:12;
+}
+
 #sidebar.sidebar_hidden {
   display: none;
 }
