@@ -19,11 +19,8 @@ Tested with...
 ====================
 
 Redmine:
- * 2.1.x
- * 2.2.x
- * 2.3.x
- * 2.4.x
- * 2.5.x
+ * >=2.1.x
+ * <=3.2.x
 
 Themes:
  * Default themes
@@ -38,8 +35,8 @@ Themes:
    * Circle
 
 Browsers:
- * Google Chrome 28, 33
- * Firefox 22, 28
+ * Google Chrome >=28
+ * Firefox >=22
  * Internet Explorer 7-8-9-10
 
 License
