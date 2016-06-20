@@ -1,3 +1,7 @@
+#main-menu .menu-children, .ui-widget-content {
+  z-index: 15;
+}
+
 #hideSidebarButton {
   position: fixed;
   width: 7px;
