@@ -12,15 +12,14 @@ Installation
 ====================
 Change to redmine/plugins folder and run:
 ```bash
-  git clone https://github.com/bdemirkir/sidebar_hide.git
+  git clone https://github.com/wrightia/sidebar_hide
 ```
 
 Tested with...
 ====================
 
 Redmine:
- * >=2.1.x
- * <=3.2.x
+ * =3.3.0
 
 Themes:
  * Default themes
