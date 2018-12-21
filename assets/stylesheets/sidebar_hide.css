@@ -33,8 +33,12 @@
   z-index:0;
 }
 
+#context-menu{
+  position: fixed !important;
+}
+
 #sidebar {
-  z-index:12;
+  z-index:0;
 }
 
 #sidebar.sidebar_hidden {
