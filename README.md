@@ -1,3 +1,6 @@
+This plugin was originally developed by Berk Demirkır and hosted in this repo: https://github.com/bdemirkir/sidebar_hide
+The repository has since been deleted so we are now maintaining this plugin here.
+
 Hide Sidebar
 ====================
 
@@ -12,14 +15,14 @@ Installation
 ====================
 Change to redmine/plugins folder and run:
 ```bash
-  git clone https://github.com/bdemirkir/sidebar_hide.git
+  git clone https://github.com/nanego/redmine_hide_sidebar.git
 ```
 
 Tested with...
 ====================
 
 Redmine:
- * =3.3.0
+ * =4.0.0
 
 Themes:
  * Default themes
