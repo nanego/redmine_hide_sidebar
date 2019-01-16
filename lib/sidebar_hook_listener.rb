@@ -2,7 +2,7 @@ class SidebarHookListener < Redmine::Hook::ViewListener
 	render_on :view_layouts_base_content, :partial => 'sidebar/hideButton_partial'
 
   def view_layouts_base_html_head(_context = {})
-    stylesheet_link_tag('redmine_hide_sidebar', :plugin => 'sidebar_hide', :media => 'all') +
-      javascript_include_tag('redmine_hide_sidebar', :plugin => 'sidebar_hide')
+    stylesheet_link_tag('redmine_hide_sidebar', :plugin => 'redmine_hide_sidebar', :media => 'all') +
+      javascript_include_tag('redmine_hide_sidebar', :plugin => 'redmine_hide_sidebar')
   end
 end
