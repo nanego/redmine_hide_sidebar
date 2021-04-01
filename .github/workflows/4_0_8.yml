@@ -1,8 +1,8 @@
-name: Tests 4.1.1
+name: Tests 4.0.8
 
 env:
   PLUGIN_NAME: redmine_hide_sidebar
-  REDMINE_VERSION: 4.1.1
+  REDMINE_VERSION: 4.0.8
   RAILS_ENV: test
 
 on:
@@ -54,6 +54,7 @@ jobs:
           libicu-dev
           libpq-dev
           ghostscript
+          gsfonts
 
       - name: Set up chromedriver
         uses: nanasess/setup-chromedriver@master

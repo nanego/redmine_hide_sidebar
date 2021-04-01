@@ -1,8 +1,8 @@
-name: Tests master
+name: Tests 4.2.0
 
 env:
   PLUGIN_NAME: redmine_hide_sidebar
-  REDMINE_VERSION: master
+  REDMINE_VERSION: 4.2.0
   RAILS_ENV: test
 
 on:
