@@ -89,9 +89,11 @@ jobs:
       - name: Prepare Redmine source
         working-directory: redmine
         run: |
+          sed -i -e 's/.*mocha.*/  gem "mocha", "2.1.0"/' Gemfile # Fix core tests not compatible with Mocha 2.2.0
           sed -i '/rubocop/d' Gemfile
           rm -f .rubocop*
           cp plugins/redmine_base_rspec/spec/support/database-${{ matrix.db }}.yml config/database.yml
+          echo 'gem "builder", "~> 3.2.4"' >> Gemfile
 
       - name: Install Ruby dependencies
         working-directory: redmine
