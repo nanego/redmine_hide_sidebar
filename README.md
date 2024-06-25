@@ -1,5 +1,6 @@
 This plugin was originally developed by Berk Demirkır and hosted in this repo: https://github.com/bdemirkir/sidebar_hide
-The repository has since been deleted so we are now maintaining this plugin here.
+The repository has since been deleted (moved to GitLab: https://gitlab.com/bdemirkir/sidebar_hide and not maintained).
+That's why we are now maintaining this plugin here.
 
 Hide Sidebar
 ====================
